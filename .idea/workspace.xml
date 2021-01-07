@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5a9e7c4-e077-437e-b7bb-a051d0b14eeb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.5/libexec" />
+  <component name="ProjectId" id="1mhQ2pzxcldRqoNzVTl5PabAlqa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="Go Test.TestMultiplication in TDD">
+    <configuration name="TestEquality in TDD" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="TDD" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="TDD" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestEquality\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMultiplication in TDD" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="TDD" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="TDD" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestMultiplication\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestMultiplication in TDD" />
+        <item itemvalue="Go Test.TestEquality in TDD" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5a9e7c4-e077-437e-b7bb-a051d0b14eeb" name="Default Changelist" comment="" />
+      <created>1609943140032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609943140032</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1309" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610024301131">
+      <screen x="885" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="1309" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog/885.-1080.1920.1080/0.0.1440.900/-1035.-1080.1920.1080@885.-1080.1920.1080" timestamp="1610024301131" />
+    <state width="406" height="466" key="DebuggerActiveHint" timestamp="1610024609893">
+      <screen x="885" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="406" height="466" key="DebuggerActiveHint/885.-1057.1920.1057/0.23.1440.877/-1035.-1057.1920.1057@885.-1057.1920.1057" timestamp="1610024609893" />
+    <state width="1878" height="358" key="GridCell.Tab.0.bottom" timestamp="1610027556357">
+      <screen x="885" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.0.bottom/885.-1057.1920.1057/0.23.1440.877/-1035.-1057.1920.1057@885.-1057.1920.1057" timestamp="1610027556357" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/885.-1080.1920.1080/0.0.1440.900/-1035.-1080.1920.1080@885.-1080.1920.1080" timestamp="1610024473458" />
+    <state width="1878" height="358" key="GridCell.Tab.0.center" timestamp="1610027556355">
+      <screen x="885" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.0.center/885.-1057.1920.1057/0.23.1440.877/-1035.-1057.1920.1057@885.-1057.1920.1057" timestamp="1610027556355" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center/885.-1080.1920.1080/0.0.1440.900/-1035.-1080.1920.1080@885.-1080.1920.1080" timestamp="1610024473456" />
+    <state width="1878" height="358" key="GridCell.Tab.0.left" timestamp="1610027556353">
+      <screen x="885" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.0.left/885.-1057.1920.1057/0.23.1440.877/-1035.-1057.1920.1057@885.-1057.1920.1057" timestamp="1610027556353" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left/885.-1080.1920.1080/0.0.1440.900/-1035.-1080.1920.1080@885.-1080.1920.1080" timestamp="1610024473454" />
+    <state width="1878" height="358" key="GridCell.Tab.0.right" timestamp="1610027556356">
+      <screen x="885" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.0.right/885.-1057.1920.1057/0.23.1440.877/-1035.-1057.1920.1057@885.-1057.1920.1057" timestamp="1610027556356" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right/885.-1080.1920.1080/0.0.1440.900/-1035.-1080.1920.1080@885.-1080.1920.1080" timestamp="1610024473457" />
+    <state width="1878" height="358" key="GridCell.Tab.1.bottom" timestamp="1610027556359">
+      <screen x="885" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.bottom/885.-1057.1920.1057/0.23.1440.877/-1035.-1057.1920.1057@885.-1057.1920.1057" timestamp="1610027556359" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/885.-1080.1920.1080/0.0.1440.900/-1035.-1080.1920.1080@885.-1080.1920.1080" timestamp="1610024473462" />
+    <state width="1878" height="358" key="GridCell.Tab.1.center" timestamp="1610027556358">
+      <screen x="885" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.center/885.-1057.1920.1057/0.23.1440.877/-1035.-1057.1920.1057@885.-1057.1920.1057" timestamp="1610027556358" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center/885.-1080.1920.1080/0.0.1440.900/-1035.-1080.1920.1080@885.-1080.1920.1080" timestamp="1610024473460" />
+    <state width="1878" height="358" key="GridCell.Tab.1.left" timestamp="1610027556358">
+      <screen x="885" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.left/885.-1057.1920.1057/0.23.1440.877/-1035.-1057.1920.1057@885.-1057.1920.1057" timestamp="1610027556358" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left/885.-1080.1920.1080/0.0.1440.900/-1035.-1080.1920.1080@885.-1080.1920.1080" timestamp="1610024473459" />
+    <state width="1878" height="358" key="GridCell.Tab.1.right" timestamp="1610027556359">
+      <screen x="885" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.right/885.-1057.1920.1057/0.23.1440.877/-1035.-1057.1920.1057@885.-1057.1920.1057" timestamp="1610027556359" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right/885.-1080.1920.1080/0.0.1440.900/-1035.-1080.1920.1080@885.-1080.1920.1080" timestamp="1610024473461" />
+    <state x="1552" y="-814" width="586" height="548" key="find.popup" timestamp="1610024306636">
+      <screen x="885" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="1552" y="-814" width="586" height="548" key="find.popup/885.-1080.1920.1080/0.0.1440.900/-1035.-1080.1920.1080@885.-1080.1920.1080" timestamp="1610024306636" />
+    <state x="1692" y="-767" key="refactoring.ChangeSignatureDialog" timestamp="1609980141825">
+      <screen x="885" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="1692" y="-767" key="refactoring.ChangeSignatureDialog/0.0.1440.900/-1035.-1080.1920.1080/885.-1080.1920.1080@885.-1080.1920.1080" timestamp="1609980141825" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="GoTestRunConfiguration">
+        <watch expression="*(*&quot;TDD.Dollar&quot;)(824634346984)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TDD$TestMultiplication_in_TDD.out" NAME="TestMultiplication in TDD Coverage Results" MODIFIED="1610025464733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
