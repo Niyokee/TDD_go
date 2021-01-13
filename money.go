@@ -1,24 +1,33 @@
 package TDD
 
 type Money struct {
-	amount int
-}
-type Dollar struct {
-	Money
+	amount   int
+	currency string
 }
 
-func (m *Money) times(multiplier int) Money {
-	return Money{amount: m.amount * multiplier}
+func NewMoney(amount int, currency string) *Money {
+	m := new(Money)
+	m.amount = amount
+	m.currency = currency
+	return m
 }
 
 func (m Money) equals(m1 Money) bool {
 	return m == m1
 }
 
-type Franc struct {
-	Money
+func (m Money) times(multiplier int) *Money {
+	return NewMoney(m.amount*multiplier, m.currency)
 }
 
-func (f *Franc) times(multiplier int) Franc {
-	return Franc{Money{amount: f.amount * multiplier}}
+func (m *Money) plus(addend *Money) *Money {
+	return NewMoney(m.amount + addend.amount, m.currency)
+}
+
+func NewDollar(amount int) *Money {
+	return NewMoney(amount, "USD")
+}
+
+func NewFranc(amount int) *Money {
+	return NewMoney(amount, "USD")
 }

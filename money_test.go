@@ -1,56 +1,44 @@
 package TDD
 
 import (
-	"reflect"
 	"testing"
 )
 
-func TestMultiplication(t *testing.T) {
-	five := Dollar{Money{amount: 5}}
-	ten := Dollar{Money{amount: 10}}
-	fifteen := Dollar{Money{amount: 15}}
-	if reflect.DeepEqual(five.times(2), ten) {
-		t.Errorf("Dollor(5) times 2 = %d; want 10", ten)
+func TestSimpleAdd(t *testing.T)  {
+	five := NewDollar(5)
+	sum := five.plus(five)
+	bank := Bank{}
+	reduced := bank.reduce(sum, "USD")
+	if *sum != *reduced {
+		t.Errorf("Dollor(10) = %v; want 10", reduced)
 	}
-	if reflect.DeepEqual(five.times(3), fifteen) {
-		t.Errorf("Dollor(5) times 3 = %d; want 15", fifteen)
+}
+func TestMultiplication(t *testing.T) {
+	five := NewDollar(5)
+
+	if *five.times(2) != *NewDollar(10) {
+		t.Errorf("Dollor(5) times 2 = %v; want 10", NewDollar(10))
+	}
+	if *five.times(3) != *NewDollar(15) {
+		t.Errorf("Dollor(5) times 3 = %v; want 15", NewDollar(15))
 	}
 }
 
 func TestEquality(t *testing.T) {
-	d := Dollar{Money{amount: 5}}
-	d1 :=  Dollar{Money{amount: 5}}
-	d2 :=  Dollar{Money{amount: 6}}
+	d := NewDollar(5)
+	d1 := NewDollar(5)
+	d2 := NewDollar(6)
 
-	f := Franc{Money{amount: 5}}
-	f1 :=  Franc{Money{amount: 5}}
-	f2 :=  Franc{Money{amount: 6}}
+	f := NewFranc(5)
 
-	if !reflect.DeepEqual(d, d1) {
-		t.Errorf("d: %d, d1: %d", d, d1)
+	if !d.equals(*d1) {
+		t.Errorf("d: %v, d1: %v", d, d1)
 	}
-	if reflect.DeepEqual(d, d2) {
-		t.Errorf("d: %d, d1: %d", d, d2)
+	if d1.equals(*d2) {
+		t.Errorf("d: %v, d1: %v", d1, d2)
 	}
 
-	if !reflect.DeepEqual(f, f1) {
-		t.Errorf("f: %d, f1: %d", f, f1)
-	}
-	if reflect.DeepEqual(f, f2) {
-		t.Errorf("f: %d, f1: %d", f, f2)
-	}
-
-}
-
-func TestFrancMultiplication(t *testing.T) {
-	five := Franc{Money{amount: 5}}
-	ten := Franc{Money{amount: 10}}
-	fifteen := Franc{Money{amount: 15}}
-
-	if !reflect.DeepEqual(five.times(2), ten) {
-		t.Errorf("Dollor(5) times 2 = %d; want 10", ten)
-	}
-	if !reflect.DeepEqual(five.times(3), fifteen) {
-		t.Errorf("Dollor(5) times 3 = %d; want 15", fifteen)
+	if !f.equals(*d) {
+		t.Errorf("d: %v, d1: %v", f, d)
 	}
 }
