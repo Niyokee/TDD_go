@@ -1,4 +1,4 @@
-package TDD
+package done
 
 type Money struct {
 	amount   int

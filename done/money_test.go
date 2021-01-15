@@ -1,4 +1,4 @@
-package TDD
+package done
 
 import (
 	"testing"
