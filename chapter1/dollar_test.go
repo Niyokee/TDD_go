@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestMultiplication(t *testing.T) {
+func TestDollarMultiplication(t *testing.T) {
 	five := NewDollar(5)
 	product := five.times(2)
 	if 10 != product.amount {
@@ -24,5 +24,20 @@ func TestEquality(t *testing.T)  {
 	}
 	if five.equals(NewDollar(6)) {
 		t.Errorf("Dollar(5) is not equal to %v want true", NewDollar(6))
+	}
+}
+
+// Dollar + Franc を実現するために、
+// FrancでもDollarと同じことができるようにしよう。
+func TestFrancMultiplication(t *testing.T) {
+	five := NewFranc(5)
+	product := five.times(2)
+	if 10 != product.amount {
+		t.Errorf("Franc(5) times 2 is %v want 10", product.amount)
+	}
+
+	product = five.times(3)
+	if 15 != product.amount {
+		t.Errorf("Franc(5) times 3 is %v want 10", product.amount)
 	}
 }
