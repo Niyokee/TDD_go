@@ -26,3 +26,11 @@ func (m *Money) times(multiplier int) *Money {
 func NewMoney(amount int, currency string) *Money {
 	return &Money{amount: amount, currency: currency}
 }
+
+func NewDollar(amount int) *Money {
+	return NewMoney(amount, "USD")
+}
+
+func NewFranc(amount int) *Money {
+	return NewMoney(amount, "CHF")
+}
