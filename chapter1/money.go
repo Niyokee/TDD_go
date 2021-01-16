@@ -17,6 +17,8 @@ func (m *Money) equals(m1 *Money) bool {
 }
 
 // value-objectとして扱いたいので、新しいオブジェクトを返すようにする
+// サブクラスで（goだから厳密にはサフクラスではないが便宜上。。。）完全に一致したメソッドができたので
+//　親クラスに引き揚げた
 func (m *Money) times(multiplier int) *Money {
 	return NewMoney(m.amount * multiplier, m.currency)
 }

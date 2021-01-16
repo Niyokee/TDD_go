@@ -66,3 +66,9 @@ func TestCurrency (t *testing.T) {
 		t.Errorf("the currency of Franc(1) is %v want CHF", NewFranc(1).currency)
 	}
 }
+
+func TestDifferentClassEquality(t *testing.T) {
+	if !NewMoney(10, "CHF").equals(NewFranc(10)) {
+		t.Errorf("%v is expected to be equal to %v", NewMoney(10, "CHF"), NewMoney(10, "CHF"))
+	}
+}
