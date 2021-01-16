@@ -6,11 +6,6 @@ type Franc struct {
 	*Money
 }
 
-// value-objectとして扱いたいので、新しいオブジェクトを返すようにする
-func (f *Franc) times(multiplier int) *Franc {
-	return NewFranc(f.amount * multiplier)
-}
-
-func NewFranc(amount int) *Franc {
-	return &Franc{NewMoney(amount)}
+func NewFranc(amount int) *Money {
+	return NewMoney(amount, "CHF")
 }

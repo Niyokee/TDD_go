@@ -5,6 +5,8 @@ package chapter1
 type Money struct {
 	// DollarもFrancもamount を持つので移動させる
 	amount int
+	// currencyが重複していたので、Moneyへ移動
+	currency string
 }
 
 // equal methodもDollarとFrancで共通しているので Moneyに引き上げた
@@ -14,6 +16,11 @@ func (m *Money) equals(m1 *Money) bool {
 	return m.amount == m1.amount
 }
 
-func NewMoney(amount int) *Money {
-	return &Money{amount: amount}
+// value-objectとして扱いたいので、新しいオブジェクトを返すようにする
+func (m *Money) times(multiplier int) *Money {
+	return NewMoney(m.amount * multiplier, m.currency)
+}
+
+func NewMoney(amount int, currency string) *Money {
+	return &Money{amount: amount, currency: currency}
 }
