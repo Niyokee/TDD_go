@@ -32,6 +32,12 @@ func TestEquality(t *testing.T) {
 	if NewFranc(5).Money.equals(NewFranc(6).Money) {
 		t.Errorf("Franc(5) is not equal to %v want true", NewFranc(6))
 	}
+	//FrancとDollar比べたらどうなる？
+	//FrancとDollarが等しくないことを確認する →　等しい！
+	if NewFranc(5).Money.equals(NewDollar(5).Money) {
+		t.Errorf("Franc(5) is not equal to %v: type: %T want false", NewDollar(5).Money, NewDollar(5).Money, )
+	}
+
 }
 
 // Dollar + Franc を実現するために、
